@@ -1,7 +1,6 @@
 {
   "name": "hello-world-vue-static",
   "dependencies": {
-    "@nuxtjs/sitemap": "^2.0.1",
     "nuxt": "^2.10.2"
   },
   "scripts": {
@@ -16,6 +15,7 @@
   "devDependencies": {
     "@nuxt/typescript-build": "^0.3.6",
     "@nuxt/typescript-runtime": "^0.2.6",
+    "@nuxtjs/sitemap": "^2.0.1",
     "@typescript-eslint/eslint-plugin": "^2.9.0",
     "@typescript-eslint/parser": "^2.9.0",
     "babel-eslint": "10.0.3",
