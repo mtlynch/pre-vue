@@ -4,8 +4,8 @@
       <nuxt-link class="nav-item" to="/">
         Home
       </nuxt-link>
-      <nuxt-link class="nav-item" to="/about">
-        About
+      <nuxt-link class="nav-item" to="/counter">
+        Counter
       </nuxt-link>
     </div>
     <nuxt class="container" />
