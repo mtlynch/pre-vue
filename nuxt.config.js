@@ -3,7 +3,7 @@ export default {
     htmlAttrs: {
       lang: 'en',
     },
-    titleTemplate: '%s | Static Vue Example',
+    titleTemplate: '%s | Hello World Vue Static',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1.0'},

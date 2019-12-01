@@ -1,4 +1,4 @@
-# Vue + Nuxt Static Site Example
+# hello-world-vue-static
 
 [![CircleCI](https://circleci.com/gh/mtlynch/hello-world-vue-static.svg?style=svg)](https://circleci.com/gh/mtlynch/hello-world-vue-static)
 
