@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-  build-frontend:
+  build:
     docker:
       - image: circleci/node:13.2.0-stretch
     steps:
