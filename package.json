@@ -13,6 +13,6 @@
   "devDependencies": {
     "@nuxt/typescript-build": "^0.3.6",
     "@nuxt/typescript-runtime": "^0.2.6",
-    "prettier": "^1.19.1"
+    "prettier": "1.19.1"
   }
 }
