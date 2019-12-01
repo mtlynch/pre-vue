@@ -1,0 +1,41 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: circleci/node:13.2.0-stretch
+    steps:
+      - checkout
+      - run:
+          name: Download npm packages
+          command: npm install
+      - run:
+          name: Build static pages
+          command: npm run generate
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - ./dist
+  deploy:
+    docker:
+      - image: circleci/node:13.2.0-stretch
+    steps:
+      - attach_workspace:
+          at: ./
+      - run:
+          name: Install firebase-tools
+          command: npm install firebase-tools
+      - run:
+          name: Deploy to firebase
+          command: |
+            ./node_modules/.bin/firebase deploy --token="$FIREBASE_DEPLOY_TOKEN"
+workflows:
+  version: 2
+  test-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
