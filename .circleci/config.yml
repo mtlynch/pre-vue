@@ -12,6 +12,9 @@ jobs:
           name: Check JavaScript formatting
           command: npm run check-format
       - run:
+          name: Run linter
+          command: npm run lint
+      - run:
           name: Build static pages
           command: npm run generate
       - persist_to_workspace:

@@ -1,0 +1,16 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parser": "vue-eslint-parser",
+  "plugins": ["vue"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "vue/max-attributes-per-line": "off"
+  }
+}

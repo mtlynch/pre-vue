@@ -8,11 +8,21 @@
     "generate": "nuxt generate",
     "check-format": "prettier --check ./**/*.js ./**/*.vue ./**/*.json",
     "format": "prettier --write ./**/*.js ./**/*.vue ./**/*.json",
+    "fix-lint": "eslint --fix ./**/*.js ./**/*.vue",
+    "lint": "eslint --ext .js,.vue .",
     "post-update": "yarn upgrade --latest"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.3.6",
     "@nuxt/typescript-runtime": "^0.2.6",
+    "@typescript-eslint/eslint-plugin": "^2.9.0",
+    "@typescript-eslint/parser": "^2.9.0",
+    "babel-eslint": "10.0.3",
+    "eslint": "6.7.2",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-loader": "3.0.2",
+    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-vue": "6.0.1",
     "prettier": "1.19.1"
   }
 }

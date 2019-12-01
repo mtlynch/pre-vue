@@ -1,10 +1,10 @@
 <template>
   <div class="container">
-    <div class="page-not-found" v-if="error.statusCode === 404">
+    <div v-if="error.statusCode === 404" class="page-not-found">
       <h1>Page not found</h1>
       <p>Sorry, we couldn't find the page you were looking for.</p>
     </div>
-    <div class="unexpected-error" v-else>
+    <div v-else class="unexpected-error">
       <h1>An error occurred</h1>
       <p>Whoops, there was an error when loading this page:</p>
       <pre>{{ error.message }}</pre>
@@ -14,6 +14,11 @@
 
 <script>
 export default {
-  props: ['error'],
+  props: {
+    error: {
+      type: Object,
+      default: null,
+    },
+  },
 };
 </script>
