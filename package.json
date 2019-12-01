@@ -1,6 +1,7 @@
 {
   "name": "hello-world-vue-static",
   "dependencies": {
+    "@nuxtjs/sitemap": "^2.0.1",
     "nuxt": "^2.10.2"
   },
   "scripts": {
