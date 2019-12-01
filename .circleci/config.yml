@@ -15,6 +15,8 @@ jobs:
           root: ./
           paths:
             - ./dist
+            - firebase.json
+            - .firebaserc
   deploy:
     docker:
       - image: circleci/node:13.2.0-stretch
