@@ -8,7 +8,7 @@
 <script>
 export default {
   head: {
-    title: "Home page"
-  }
+    title: 'Home page',
+  },
 };
 </script>

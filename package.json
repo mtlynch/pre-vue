@@ -6,10 +6,13 @@
   "scripts": {
     "dev": "nuxt --port 3600",
     "generate": "nuxt generate",
+    "check-format": "prettier --check ./**/*.js ./**/*.vue ./**/*.json",
+    "format": "prettier --write ./**/*.js ./**/*.vue ./**/*.json",
     "post-update": "yarn upgrade --latest"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.3.6",
-    "@nuxt/typescript-runtime": "^0.2.6"
+    "@nuxt/typescript-runtime": "^0.2.6",
+    "prettier": "^1.19.1"
   }
 }

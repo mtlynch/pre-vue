@@ -9,6 +9,9 @@ jobs:
           name: Download npm packages
           command: npm install
       - run:
+          name: Check JavaScript formatting
+          command: npm run check-format
+      - run:
           name: Build static pages
           command: npm run generate
       - persist_to_workspace:
