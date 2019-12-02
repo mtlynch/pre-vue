@@ -12,6 +12,7 @@ To customize this template for your project:
 
 1. Find/replace "hello-world-vue-static" with your repo name.
 1. Find/replace "Hello World Vue Static" with your project friendly name.
+1. Find/replace "https://hello-world-vue-static.web.app" with your app's hostname.
 
 ## Live Demo
 

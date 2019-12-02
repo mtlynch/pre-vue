@@ -12,6 +12,21 @@
   </div>
 </template>
 
+<script>
+export default {
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://hello-world-vue-static.web.app/' + this.$route.path,
+        },
+      ],
+    };
+  },
+};
+</script>
+
 <style>
 body,
 html {
