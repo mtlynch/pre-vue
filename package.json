@@ -15,6 +15,7 @@
   "devDependencies": {
     "@nuxt/typescript-build": "^0.3.6",
     "@nuxt/typescript-runtime": "^0.2.6",
+    "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.0.1",
     "@typescript-eslint/eslint-plugin": "^2.9.0",
     "@typescript-eslint/parser": "^2.9.0",

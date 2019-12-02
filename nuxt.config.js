@@ -16,10 +16,13 @@ export default {
       },
     ],
   },
-  modules: ['@nuxtjs/sitemap'],
+  modules: ['@nuxtjs/sitemap', '@nuxtjs/robots'],
   sitemap: {
     hostname: 'https://hello-world-vue-static.web.app/',
     gzip: true,
     exclude: ['/404'],
+  },
+  robots: {
+    sitemap: 'https://hello-world-vue-static.web.app/sitemap.xml',
   },
 };
