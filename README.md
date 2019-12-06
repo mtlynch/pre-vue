@@ -4,7 +4,7 @@
 
 ## Overview
 
-This is an example of a Vue + Nuxt configuration that generates a pre-rendered, static site.
+This is an example of a [Vue](https://vuejs.org) + [Nuxt](https://nuxtjs.org) configuration that generates a pre-rendered, static site.
 
 Instead of generating a normal single-page app, it generates a static page for every route on your site, making it easier for you to configure search engine optimization and social sharing.
 

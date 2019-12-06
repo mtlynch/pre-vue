@@ -9,8 +9,13 @@ export default {
       {name: 'viewport', content: 'width=device-width, initial-scale=1.0'},
       {property: 'og:type', content: 'website'},
       {
+        property: 'og:description',
+        content:
+          'Hello World Vue Static is a simple example of a pre-rendered Vue website',
+      },
+      {
         property: 'og:image',
-        content: 'https://hello-world-vue-static.web.app/images/logo.svg',
+        content: 'https://hello-world-vue-static.web.app/images/logo.png',
       },
     ],
     link: [
