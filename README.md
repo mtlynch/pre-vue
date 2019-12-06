@@ -4,7 +4,9 @@
 
 ## Overview
 
-This is an example of a Vue + Nuxt configuration that generates a static site. Instead of generating a normal single-page app, it generates a static page for every route on your site, making it easier for your
+This is an example of a Vue + Nuxt configuration that generates a pre-rendered, static site.
+
+Instead of generating a normal single-page app, it generates a static page for every route on your site, making it easier for you to configure search engine optimization and social sharing.
 
 ## Benefits of pre-rendering
 
