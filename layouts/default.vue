@@ -15,13 +15,16 @@
 <script>
 export default {
   head() {
+    const canonicalUrl =
+      'https://hello-world-vue-static.web.app' + this.$route.path;
     return {
       link: [
         {
           rel: 'canonical',
-          href: 'https://hello-world-vue-static.web.app/' + this.$route.path,
+          href: canonicalUrl,
         },
       ],
+      meta: [{name: 'og:url', content: canonicalUrl}],
     };
   },
 };

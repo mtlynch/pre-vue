@@ -14,6 +14,12 @@
 export default {
   head: {
     title: 'Home page',
+    meta: [
+      {
+        name: 'og:title',
+        content: 'Home page',
+      },
+    ],
   },
 };
 </script>

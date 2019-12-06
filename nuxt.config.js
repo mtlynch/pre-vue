@@ -7,6 +7,11 @@ export default {
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1.0'},
+      {name: 'og:type', content: 'website'},
+      {
+        name: 'og:image',
+        content: 'https://hello-world-vue-static.web.app/images/logo.svg',
+      },
     ],
     link: [
       {
