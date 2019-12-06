@@ -16,7 +16,7 @@ export default {
     title: 'Home page',
     meta: [
       {
-        name: 'og:title',
+        property: 'og:title',
         content: 'Home page',
       },
     ],

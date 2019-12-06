@@ -24,7 +24,7 @@ export default {
           href: canonicalUrl,
         },
       ],
-      meta: [{name: 'og:url', content: canonicalUrl}],
+      meta: [{property: 'og:url', content: canonicalUrl}],
     };
   },
 };

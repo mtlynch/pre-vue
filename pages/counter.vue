@@ -17,7 +17,7 @@ export default {
     title: 'Counter',
     meta: [
       {
-        name: 'og:title',
+        property: 'og:title',
         content: 'Counter',
       },
     ],
