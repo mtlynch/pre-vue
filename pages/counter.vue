@@ -15,6 +15,12 @@
 export default {
   head: {
     title: 'Counter',
+    meta: [
+      {
+        property: 'og:title',
+        content: 'Counter',
+      },
+    ],
   },
   data: function() {
     return {
