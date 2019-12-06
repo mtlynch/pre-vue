@@ -9,8 +9,7 @@
     "check-format": "prettier --check ./**/*.js ./**/*.vue ./**/*.json",
     "format": "prettier --write ./**/*.js ./**/*.vue ./**/*.json",
     "fix-lint": "eslint --fix ./**/*.js ./**/*.vue",
-    "lint": "eslint --ext .js,.vue .",
-    "post-update": "yarn upgrade --latest"
+    "lint": "eslint --ext .js,.vue ."
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.3.6",

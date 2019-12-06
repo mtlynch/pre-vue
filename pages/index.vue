@@ -1,7 +1,12 @@
 <template>
   <div>
-    <h1>Welcome</h1>
-    <p>Hello and welcome to the Vue Static Site example</p>
+    <h1>Hello, world!</h1>
+    <p>I'm an example of a pre-rendered Vue webpage.</p>
+    <p>
+      To learn more, visit my
+      <a href="https://github.com/mtlynch/hello-world-vue-static">Github repo</a
+      >.
+    </p>
   </div>
 </template>
 
