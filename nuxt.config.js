@@ -27,6 +27,7 @@ export default {
     ],
   },
   modules: ['@nuxtjs/sitemap', '@nuxtjs/robots'],
+  plugins: ['~/plugins/head'],
   sitemap: {
     hostname: 'https://hello-world-vue-static.web.app/',
     gzip: true,

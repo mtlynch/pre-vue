@@ -13,14 +13,10 @@
 
 <script>
 export default {
-  head: {
-    title: 'Counter',
-    meta: [
-      {
-        property: 'og:title',
-        content: 'Counter',
-      },
-    ],
+  asyncData() {
+    return {
+      title: 'Counter',
+    };
   },
   data: function() {
     return {
