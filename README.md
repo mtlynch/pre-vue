@@ -8,6 +8,17 @@ This is an example of a [Vue](https://vuejs.org) + [Nuxt](https://nuxtjs.org) co
 
 Instead of generating a normal single-page app, it generates a static page for every route on your site, making it easier for you to configure search engine optimization and social sharing.
 
+## Features
+
+The following features are built-in to this project template:
+
+- Generates a sitemap (for SEO)
+- Generates a robots.txt (for SEO)
+- Supports unique `<title>` tags for each page (for SEO)
+- Adds unique opengraph tags to each page (for social sharing)
+- Adds a favicon
+- Handles 404s
+
 ## Benefits of pre-rendering
 
 ### Search engine optimization
