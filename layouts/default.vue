@@ -15,8 +15,7 @@
 <script>
 export default {
   head() {
-    const canonicalUrl =
-      'https://pre-vue.web.app' + this.$route.path;
+    const canonicalUrl = 'https://pre-vue.web.app' + this.$route.path;
     return {
       link: [
         {
