@@ -4,8 +4,7 @@
     <p>I'm an example of a pre-rendered Vue webpage.</p>
     <p>
       To learn more, visit my
-      <a href="https://github.com/mtlynch/hello-world-vue-static">Github repo</a
-      >.
+      <a href="https://github.com/mtlynch/pre-vue">Github repo</a>.
     </p>
   </div>
 </template>
