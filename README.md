@@ -1,6 +1,6 @@
 # hello-world-vue-static
 
-[![CircleCI](https://circleci.com/gh/mtlynch/hello-world-vue-static.svg?style=svg)](https://circleci.com/gh/mtlynch/hello-world-vue-static)
+[![CircleCI](https://circleci.com/gh/mtlynch/hello-world-vue-static.svg?style=svg)](https://circleci.com/gh/mtlynch/hello-world-vue-static) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](LICENSE)
 
 ## Overview
 
