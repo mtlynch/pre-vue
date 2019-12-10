@@ -1,5 +1,5 @@
 {
-  "name": "hello-world-vue-static",
+  "name": "pre-vue",
   "dependencies": {
     "nuxt": "^2.10.2"
   },

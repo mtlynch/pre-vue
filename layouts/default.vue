@@ -16,7 +16,7 @@
 export default {
   head() {
     const canonicalUrl =
-      'https://hello-world-vue-static.web.app' + this.$route.path;
+      'https://pre-vue.web.app' + this.$route.path;
     return {
       link: [
         {
