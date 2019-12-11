@@ -18,7 +18,6 @@
       The browser loaded this page at <b>{{ loadTime }}</b
       >.
     </p>
-    <p><nuxt-link to="/">Home</nuxt-link></p>
   </div>
 </template>
 
