@@ -25,6 +25,14 @@ export default {
       },
     ],
   },
+  buildModules: [
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-000000000-0',
+      },
+    ],
+  ],
   modules: ['@nuxtjs/sitemap', '@nuxtjs/robots'],
   plugins: ['~/plugins/head'],
   sitemap: {
