@@ -44,7 +44,7 @@ npm install
 npm run dev
 ```
 
-Visit [http://localhost:3600](http://localhost:3600) to see the site running.
+Visit [http://localhost:3700](http://localhost:3700) to see the site running.
 
 ## Deploying to production
 

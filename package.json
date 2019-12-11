@@ -4,7 +4,7 @@
     "nuxt": "^2.10.2"
   },
   "scripts": {
-    "dev": "nuxt --port 3600",
+    "dev": "nuxt --port 3700",
     "generate": "nuxt generate",
     "check-format": "prettier --check ./**/*.js ./**/*.vue ./**/*.json",
     "format": "prettier --write ./**/*.js ./**/*.vue ./**/*.json",
