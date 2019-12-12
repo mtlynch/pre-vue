@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>About this Build</h1>
+    <h1>{{ title }}</h1>
     <p v-if="buildTime">
       Nuxt pre-rendered this page at <b>{{ buildTime }}</b> (before the browser
       ever saw it).
