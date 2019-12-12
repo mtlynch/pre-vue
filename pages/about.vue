@@ -24,14 +24,16 @@
 <script>
 export default {
   asyncData() {
-    // Don't re-evaluate ayncData when the client loads this page in the
+    const data = {
+      title: 'About this Build',
+      buildTime: null,
+    };
+    // Don't re-evaluate buildTime when the client loads this page in the
     // browser.
     if (!process.client) {
-      return {
-        title: 'About this Build',
-        buildTime: new Date().toUTCString(),
-      };
+      data.buildTime = new Date().toUTCString();
     }
+    return data;
   },
   // Vue evaluates data variables at page render time and again every time the
   // browser loads this page.
