@@ -65,7 +65,11 @@ The [circleci-firebase](https://github.com/mtlynch/pre-vue/tree/circleci-firebas
 
 ## Customization
 
-To customize this template for your project, find/replace `pre-vue` with your repo name.
+To customize this template for your project:
+
+1. Find/replace "https://pre-vue.web.app" with your app's base URL.
+1. Find/replace `pre-vue` with your repo name.
+1. Update `.env` with your Google Analytics ID.
 
 ## Live Demo
 

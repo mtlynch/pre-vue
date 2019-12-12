@@ -1,3 +1,7 @@
+// Load dotenv module so that .env environment variables are available within
+// this file.
+require('dotenv').config();
+
 export default {
   head: {
     htmlAttrs: {
@@ -29,11 +33,17 @@ export default {
     [
       '@nuxtjs/google-analytics',
       {
-        id: 'UA-000000000-0',
+        id: process.env.GOOGLE_ANALYTICS_ID,
       },
     ],
   ],
-  modules: ['@nuxtjs/sitemap', '@nuxtjs/robots'],
+  modules: [
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
+    // dotenv's documentation says to add it to buildModules, but that causes
+    // google-analytics to break.
+    '@nuxtjs/dotenv',
+  ],
   plugins: ['~/plugins/head'],
   sitemap: {
     hostname: 'https://pre-vue.web.app/',
