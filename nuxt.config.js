@@ -1,3 +1,7 @@
+// Load dotenv module so that .env environment variables are available within
+// this file.
+require('dotenv').config();
+
 export default {
   head: {
     htmlAttrs: {
@@ -26,10 +30,11 @@ export default {
     ],
   },
   buildModules: [
+    '@nuxtjs/dotenv',
     [
       '@nuxtjs/google-analytics',
       {
-        id: 'UA-000000000-0',
+        id: process.env.GOOGLE_ANALYTICS_ID,
       },
     ],
   ],
