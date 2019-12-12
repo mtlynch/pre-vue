@@ -30,6 +30,7 @@ export default {
     ],
   },
   buildModules: [
+    '@nuxtjs/dotenv',
     [
       '@nuxtjs/google-analytics',
       {
@@ -37,13 +38,7 @@ export default {
       },
     ],
   ],
-  modules: [
-    '@nuxtjs/sitemap',
-    '@nuxtjs/robots',
-    // dotenv's documentation says to add it to buildModules, but that causes
-    // google-analytics to break.
-    '@nuxtjs/dotenv',
-  ],
+  modules: ['@nuxtjs/sitemap', '@nuxtjs/robots'],
   plugins: ['~/plugins/head'],
   sitemap: {
     hostname: 'https://pre-vue.web.app/',
