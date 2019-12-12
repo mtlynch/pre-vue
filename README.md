@@ -16,6 +16,7 @@ The following features are built-in to this project template:
 - Generates a robots.txt (for SEO)
 - Supports unique `<title>` tags for each page (for SEO)
 - Adds unique opengraph tags to each page (for social sharing)
+- Adds Google Analytics support
 - Adds a favicon
 - Handles 404s
 
