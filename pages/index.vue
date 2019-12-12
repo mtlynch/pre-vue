@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Hello, world!</h1>
+    <h1>{{ title }}</h1>
     <p>I'm an example of a pre-rendered Vue webpage.</p>
     <p>
       I automatically generate a <a href="/robots.txt">robots.txt file</a> and
@@ -17,7 +17,7 @@
 export default {
   asyncData() {
     return {
-      title: 'Home page',
+      title: 'Hello, world!',
     };
   },
 };
