@@ -11,6 +11,7 @@
     "plugin:prettier/recommended"
   ],
   "rules": {
-    "vue/max-attributes-per-line": "off"
+    "vue/max-attributes-per-line": "off",
+    "vue/html-closing-bracket-newline": "off"
   }
 }

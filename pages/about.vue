@@ -35,7 +35,7 @@ export default {
   },
   // Vue evaluates data variables at page render time and again every time the
   // browser loads this page.
-  data: function() {
+  data: function () {
     return {
       loadTime: new Date().toUTCString(),
     };
