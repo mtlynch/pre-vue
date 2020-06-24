@@ -42,7 +42,7 @@ With pre-rendering, each page on your site can have its own set of `<meta>` tags
 
 ```bash
 npm install
-npm run dev
+npm run serve
 ```
 
 Visit [http://localhost:3700](http://localhost:3700) to see the site running.
@@ -53,7 +53,7 @@ To pre-render your website, run
 
 ```bash
 npm install
-npm run generate
+npm run build
 ```
 
 This will generate all the files for a static, pre-rendered version of your website under the `dist/` folder. You can upload these files to any service that suports static website hosting, such as:

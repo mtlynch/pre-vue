@@ -4,8 +4,8 @@
     "nuxt": "^2.10.2"
   },
   "scripts": {
-    "dev": "nuxt --port 3700",
-    "generate": "nuxt generate",
+    "serve": "nuxt --port 3700",
+    "build": "nuxt generate",
     "check-format": "prettier --check ./**/*.js ./**/*.vue ./**/*.json",
     "format": "prettier --write ./**/*.js ./**/*.vue ./**/*.json",
     "fix-lint": "eslint --fix ./**/*.js ./**/*.vue",
