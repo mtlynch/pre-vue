@@ -16,7 +16,7 @@ jobs:
           command: npm run lint
       - run:
           name: Build static pages
-          command: npm run generate
+          command: npm run build
       - persist_to_workspace:
           root: ./
           paths:
