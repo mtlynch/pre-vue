@@ -1,11 +1,6 @@
 import Vue from 'vue';
 
 Vue.mixin({
-  data() {
-    return {
-      title: null,
-    };
-  },
   head() {
     return {
       title: this.title,

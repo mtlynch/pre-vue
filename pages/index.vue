@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  asyncData() {
+  data() {
     return {
       title: 'Hello, world!',
     };
