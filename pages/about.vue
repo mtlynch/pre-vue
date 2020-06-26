@@ -28,7 +28,6 @@ export default {
     // browser.
     if (!process.client) {
       return {
-        title: 'About this Build',
         buildTime: new Date().toUTCString(),
       };
     }
@@ -38,6 +37,7 @@ export default {
   data: function () {
     return {
       loadTime: new Date().toUTCString(),
+      title: 'About this Build',
     };
   },
 };
