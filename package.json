@@ -12,20 +12,20 @@
     "lint": "eslint --ext .js,.vue ."
   },
   "devDependencies": {
-    "@nuxt/typescript-build": "^1.0.3",
-    "@nuxt/typescript-runtime": "^0.4.10",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxt/typescript-runtime": "^2.0.0",
     "@nuxtjs/dotenv": "^1.4.1",
-    "@nuxtjs/google-analytics": "^2.3.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/robots": "^2.4.2",
-    "@nuxtjs/sitemap": "^2.3.2",
-    "@typescript-eslint/eslint-plugin": "^3.4.0",
-    "@typescript-eslint/parser": "^3.4.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
     "babel-eslint": "10.1.0",
-    "eslint": "7.3.1",
-    "eslint-config-prettier": "6.11.0",
+    "eslint": "7.14.0",
+    "eslint-config-prettier": "6.15.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-prettier": "3.1.4",
-    "eslint-plugin-vue": "6.2.2",
-    "prettier": "2.0.5"
+    "eslint-plugin-vue": "7.1.0",
+    "prettier": "2.2.0"
   }
 }
