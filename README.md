@@ -36,7 +36,7 @@ With pre-rendering, each page on your site can have its own set of `<meta>` tags
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/en/download/)
+- [Node.js](https://nodejs.org/en/download/) 14.x or higher
 
 ## Quick Start
 
