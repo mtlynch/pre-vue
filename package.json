@@ -1,7 +1,7 @@
 {
   "name": "pre-vue",
   "dependencies": {
-    "nuxt": "^2.13.1"
+    "nuxt": "^2.14.7"
   },
   "scripts": {
     "serve": "nuxt --hostname 0.0.0.0 --port 3700",

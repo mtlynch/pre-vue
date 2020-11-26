@@ -3,6 +3,7 @@
 require('dotenv').config();
 
 export default {
+  target: 'static',
   head: {
     htmlAttrs: {
       lang: 'en',
